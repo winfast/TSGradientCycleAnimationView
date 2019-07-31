@@ -1,0 +1,16 @@
+PODS:
+  - TSGradientCycleAnimationView (1.0.0)
+
+DEPENDENCIES:
+  - TSGradientCycleAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  TSGradientCycleAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSGradientCycleAnimationView: 495e8518b4c7fd7ca52785a369e07c9289d720ae
+
+PODFILE CHECKSUM: e4146e00101c41086021eeb8231446f41aca6495
+
+COCOAPODS: 1.7.4

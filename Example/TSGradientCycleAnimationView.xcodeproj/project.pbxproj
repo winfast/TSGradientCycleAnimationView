@@ -61,12 +61,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B7968AAF499A89E855F4513 /* Pods-TSGradientCycleAnimationView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSGradientCycleAnimationView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TSGradientCycleAnimationView_Example/Pods-TSGradientCycleAnimationView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A87E1CB6EE579A77EB0F0250 /* TSGradientCycleAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TSGradientCycleAnimationView.podspec; path = ../TSGradientCycleAnimationView.podspec; sourceTree = "<group>"; };
-		A8F888B33C0E32B35D78E1A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A87E1CB6EE579A77EB0F0250 /* TSGradientCycleAnimationView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSGradientCycleAnimationView.podspec; path = ../TSGradientCycleAnimationView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F888B33C0E32B35D78E1A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA85AC0C4AC5082B5152B477 /* Pods_TSGradientCycleAnimationView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSGradientCycleAnimationView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8896417ACACB61A66F8C372 /* Pods_TSGradientCycleAnimationView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSGradientCycleAnimationView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EE5B8F596207A88CFC221B /* Pods-TSGradientCycleAnimationView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSGradientCycleAnimationView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TSGradientCycleAnimationView_Tests/Pods-TSGradientCycleAnimationView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0A8577843998FBC194F64E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0A8577843998FBC194F64E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				E3EE5B8F596207A88CFC221B /* Pods-TSGradientCycleAnimationView_Tests.debug.xcconfig */,
 				28C08DD4790F417E4A2853C1 /* Pods-TSGradientCycleAnimationView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = winfast;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 579P9269QX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 8B7968AAF499A89E855F4513 /* Pods-TSGradientCycleAnimationView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSGradientCycleAnimationView/TSGradientCycleAnimationView-Prefix.pch";
 				INFOPLIST_FILE = "TSGradientCycleAnimationView/TSGradientCycleAnimationView-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 6BB7BC654DF23FF51EA9AE57 /* Pods-TSGradientCycleAnimationView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSGradientCycleAnimationView/TSGradientCycleAnimationView-Prefix.pch";
 				INFOPLIST_FILE = "TSGradientCycleAnimationView/TSGradientCycleAnimationView-Info.plist";

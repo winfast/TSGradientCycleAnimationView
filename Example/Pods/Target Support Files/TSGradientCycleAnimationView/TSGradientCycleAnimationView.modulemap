@@ -1,0 +1,6 @@
+framework module TSGradientCycleAnimationView {
+  umbrella header "TSGradientCycleAnimationView-umbrella.h"
+
+  export *
+  module * { export * }
+}
